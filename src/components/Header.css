@@ -1,0 +1,182 @@
+/* HEADER STYLES STARTS */
+header{
+    margin: 40px 0 5px 0;
+    z-index: -1;
+    position: relative;
+}
+header .header-inner{
+    width: 100%;
+}
+header .header-inner .header-image{
+    width: 100%;
+    height: 900px;
+    transform: translateX(5%) translateY(-5%);
+    -webkit-transform: translateX(5%) translateY(-5%);
+    -moz-transform: translateX(5%) translateY(-5%);
+    -ms-transform: translateX(5%) translateY(-5%);
+    -o-transform: translateX(5%) translateY(-5%);
+}
+header .header-inner .header-image_inner{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg);
+    -webkit-transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg);
+    -moz-transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg);
+    -ms-transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg);
+    -o-transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg);
+}
+header .header-inner .header-image_inner .app{
+    width: 100%;
+    height: 100%;
+}
+header .header-inner .header-image_inner .shapes,
+header .header-inner .header-image_inner .coin{
+    position: absolute;
+    width: 100px;
+}
+header .header-inner .header-image_inner .cube{
+    left: 55%;
+    top: 49%;
+}
+header .header-inner .header-image_inner .helix{
+    left: 8%;
+    top: 47%;
+}
+header .header-inner .header-image_inner .pyramid{
+    left: 12%;
+    top: 19%;
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+    -moz-transform: rotate(-135deg);
+    transform: rotate(-53deg);
+    -ms-transform: rotate(-135deg);
+    -o-transform: rotate(-135deg);
+}
+header .header-inner .header-image_inner .sphere{
+    left: 66%;
+    top: 11%;
+}
+header .header-inner .header-image_inner .coin1{
+    left: 29%;
+    top: 3%;
+}
+header .header-inner .header-image_inner .coin2{
+    left: 6%;
+    top: 32%;
+}
+header .header-inner .header-image_inner .coin3{
+    left: 66%;
+    top: 28%;
+    width: 130px;
+}
+/* header .header-inner .header-text{
+
+}
+header .header-inner .header-text .section-header{
+
+} */
+/* header .header-inner .header-text{
+} */
+header .header-inner .header-text p{
+    margin: 40px 0;
+}
+/* MEDIA QUERIES STARTS */
+@media screen and (max-width: 480px){
+    header{
+        margin-bottom: 95px;
+    }
+    header .header-inner{
+        flex-direction: column;
+    }
+    header .header-inner .header-image{
+        width: 100%;
+        height: 900px;
+        transform: translateX(5%) translateY(-5%);
+        -webkit-transform: translateX(5%) translateY(-5%);
+        -moz-transform: translateX(5%) translateY(-5%);
+        -ms-transform: translateX(5%) translateY(-5%);
+        -o-transform: translateX(5%) translateY(-5%);
+    }
+    header .header-inner .header-image_inner{
+        width: 100%;
+        height: 100%;
+        position: relative;
+        transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg);
+        -webkit-transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg);
+        -moz-transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg);
+        -ms-transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg);
+        -o-transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg);
+    }
+    header .header-inner .header-image_inner .app{
+        width: 100%;
+        height: 100%;
+    }
+    header .header-inner .header-image_inner .shapes,
+    header .header-inner .header-image_inner .coin{
+        position: absolute;
+        width: 85px;
+    }
+    header .header-inner .header-image_inner .cube{
+        left: 55%;
+        top: 49%;
+    }
+    header .header-inner .header-image_inner .helix{
+        left: 8%;
+        top: 47%;
+    }
+    header .header-inner .header-image_inner .pyramid{
+        left: 12%;
+        top: 19%;
+        transform: rotate(-135deg);
+        -webkit-transform: rotate(-135deg);
+        -moz-transform: rotate(-135deg);
+        transform: rotate(-53deg);
+        -ms-transform: rotate(-135deg);
+        -o-transform: rotate(-135deg);
+    }
+    header .header-inner .header-image_inner .sphere{
+        left: 66%;
+        top: 11%;
+    }
+    header .header-inner .header-image_inner .coin1{
+        left: 29%;
+        top: 3%;
+    }
+    header .header-inner .header-image_inner .coin2{
+        left: 6%;
+        top: 32%;
+    }
+    header .header-inner .header-image_inner .coin3{
+        left: 66%;
+        top: 28%;
+        width: 90px;
+    }
+    header .header-inner .header-text{
+        margin-bottom: 55px;
+    }
+    header .header-inner .header-text .section-header{
+        width: 100%;
+    }
+    /* header .header-inner .header-text{
+    } */
+    header .header-inner .header-text p{
+        margin: 20px 0;
+    }
+    header .header-inner .header-buttons{
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 15px;
+        margin-top: 45px;
+    }
+    header .header-inner .header-buttons a{
+        text-align: center;
+        width: 100%;
+    }
+    header .header-inner .header-buttons a.btn-primary{
+        margin-right: 0;
+    }
+}
+/* MEDIA QUERIES ENDS */
+
+/* HEADER STYLES ENDS */

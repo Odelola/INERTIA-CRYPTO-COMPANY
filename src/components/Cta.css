@@ -1,0 +1,125 @@
+.cta{
+   margin-bottom: 100px; 
+}
+.cta .cta-inner{
+    background: #1649ff;
+}
+.cta .cta-inner .cta-image{
+    height: 450px;
+    position: relative;
+}
+.cta .cta-inner .cta-image_inner{
+    height: 100%;
+    position: relative;
+    transform: translateY(-10%) translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg);
+    -webkit-transform: translateY(-10%) translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg);
+    -moz-transform: translateY(-10%) translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg);
+    -ms-transform: translateY(-10%) translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg);
+    -o-transform: translateY(-10%) translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg);
+}
+.cta .cta-inner .cta-image_inner .app{
+    width: 100%;
+    height: 110%;
+    object-fit: contain;
+}
+.cta .cta-inner .cta-image_inner .shapes{
+    position: absolute;
+    width: 150px;
+}
+.cta .cta-inner .cta-image_inner .cube{
+    left: 0%;
+    top: 35%;
+}
+.cta .cta-inner .cta-image_inner .helix{
+    left: 62%;
+    top: 3%;
+}
+.cta .cta-inner .cta-image_inner .pyramid{
+    left: 18%;
+    top: 97%;
+}
+.cta .cta-inner .cta-image_inner .sphere{
+    left: 60%;
+    top: 55%;
+}
+.cta .cta-inner .cta-text{
+    color: #FFF;
+}
+.cta .cta-inner .cta-text h3{
+    margin: 15px 0;
+}
+/* .cta .cta-inner .cta-text p{
+
+} */
+.cta .cta-inner .cta-buttons{
+    margin: 45px 0;
+}
+@media screen and (max-width: 480px){
+    .cta{
+        margin-bottom: 70px; 
+     }
+     .cta .cta-inner{
+        flex-direction: column-reverse;
+        /* width: 80%; */
+     }
+     .cta .cta-inner .cta-image{
+        width: 90%;
+         height: 450px;
+         position: relative;
+     }
+     .cta .cta-inner .cta-image_inner{
+         height: 100%;
+         position: relative;
+         transform: translateY(.5%);
+         -webkit-transform: translateY(.5%);
+         -moz-transform: translateY(.5%);
+         -ms-transform: translateY(.5%);
+         -o-transform: translateY(.5%);
+}
+     .cta .cta-inner .cta-image_inner .app{
+         width: 100%;
+         height: 100%;
+         object-fit: contain;
+     }
+     .cta .cta-inner .cta-image_inner .shapes{
+         position: absolute;
+         width: 100px;
+     }
+     .cta .cta-inner .cta-image_inner .cube{
+         left: 0%;
+         top: 35%;
+     }
+     .cta .cta-inner .cta-image_inner .helix{
+         left: 62%;
+         top: 3%;
+     }
+     .cta .cta-inner .cta-image_inner .pyramid{
+         left: 18%;
+         top: 88%;
+     }
+     .cta .cta-inner .cta-image_inner .sphere{
+         left: 60%;
+         top: 55%;
+     }
+     .cta .cta-inner .cta-text{
+         text-align: center;
+         width: 95%;
+         padding-top: 30px;
+     }
+     .cta .cta-inner .cta-text h3{
+         margin: 15px 0;
+     }
+     /* .cta .cta-inner .cta-text p{
+     
+     } */
+     .cta .cta-inner .cta-buttons{
+        margin: 45px 0;
+        flex-direction: column;
+        gap: 15px;
+        margin-top: 45px;
+     }
+     .cta .cta-inner .cta-buttons a{
+        text-align: center;
+        width: 100%;
+     }
+}

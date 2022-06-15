@@ -1,0 +1,233 @@
+@font-face{
+  font-family: Crimson;
+  src: url('./fonts/Crimson_Text/CrimsonText-Regular.ttf');
+}
+@font-face{
+  font-family: Zilla;
+  src: url('./fonts/Zilla_Slab/ZillaSlab-Regular.ttf');
+}
+@font-face{
+  font-family: ZillaBold;
+  src: url('./fonts/Zilla_Slab/ZillaSlab-Bold.ttf');
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background: #141a2a;
+  color: #a6acb8;
+  overflow-x: hidden;
+}
+p{
+  line-height: 1.6em;
+  word-spacing: 1.2px;
+}
+.bold{
+  font-weight: 600;
+  font-size: 1.1em;
+}
+h1{
+  font-size: 3em;
+}
+h2{
+  font-size: 2.65em;
+}
+h3{
+  font-size: 2.4em;
+}
+h4{
+  font-size: 1.6em;
+}
+h5{
+  font-size: 1.3em;
+}
+h6{
+  font-size: 1.1em;
+}
+.d-flex{
+  display: flex;
+}
+.jcsa{
+  justify-content: space-around;
+}
+.jcsb{
+  justify-content: space-between;
+}
+.x-center{
+  justify-content: center;
+}
+.y-center{
+  align-items: center;
+}
+.column-10{
+  flex-basis: 10%;
+}
+.column-15{
+  flex-basis: 15%;
+}
+.column-25{
+  flex-basis: 25%;
+}
+.column-40{
+  flex-basis: 40%;
+}
+.column-45{
+  flex-basis: 45%;
+}
+img{
+  max-width: 100%;
+  height: auto;
+}
+.section-header{
+  color: white;
+}
+.default-padding{
+  padding: 0 40px;
+}
+.default-border-radius{
+  border-radius: 25px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  -ms-border-radius: 25px;
+  -o-border-radius: 25px;
+}
+.default-padding-2{
+  padding: 0 45px;
+}
+.text-center{
+  text-align: center;
+}
+.m-g-r-15{
+  margin-right: 15px;
+}
+/* GENERAL STYLES STARTS */
+.btn{
+  border: none;
+  padding: 15px 35px;
+  color: white;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  font-weight: bold;
+  font-size: 1.15em;
+  text-decoration: none;
+  transition: .3s ease-in;
+  -webkit-transition: .3s ease-in;
+  -moz-transition: .3s ease-in;
+  -ms-transition: .3s ease-in;
+  -o-transition: .3s ease-in;
+}
+.nav-btn{
+  padding: 15px;
+  font-size: 1em;
+}
+.btn:hover{
+  transform: translateY(-3px);
+  -webkit-transform: translateY(-3px);
+  -moz-transform: translateY(-3px);
+  -ms-transform: translateY(-3px);
+  -o-transform: translateY(-3px);
+  cursor: pointer;
+}
+.btn-primary{
+  background: #1649ff;
+}
+.btn-primary:hover{
+  background: rgba(255, 255, 255, 0.2);
+}
+.btn-primary-alt{
+  background: #FFF;
+  color: #1649ff;
+}
+.btn-primary-alt:hover{
+  background: transparent;
+  border: 1px solid #FFF;
+  color: #FFF;
+}
+.btn-secondary{
+  background: rgba(255, 255, 255, 0.2);
+}
+.btn-secondary:hover{
+  background: #1649ff;
+}
+.btn-secondary-alt{
+  background: transparent;
+  border: 1px solid #FFF;
+  font-weight: normal; 
+}
+.logo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-decoration: none;
+}
+.logo:hover{
+  transform: translateY(-2px);
+  -webkit-transform: translateY(-2px);
+  -moz-transform: translateY(-2px);
+  -ms-transform: translateY(-2px);
+  -o-transform: translateY(-2px);
+  transition: transform .2s ease-in-out;
+  -webkit-transition: transform .2s ease-in-out;
+  -moz-transition: transform .2s ease-in-out;
+  -ms-transition: transform .2s ease-in-out;
+  -o-transition: transform .2s ease-in-out;
+}
+.logo div{
+  width: 30px;
+  height: 30px;
+  justify-content: space-around;
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: 5px;
+}
+.logo div span{
+  width: 12px;
+  height: 12px;
+  display: block;
+  background: white;
+}
+.logo div span:nth-child(2),
+.logo div span:nth-child(3){
+  transform: rotate(45deg);
+  border-radius: 5px;
+  background: #1649ff;
+}
+.logo > span{
+  font-size: 35px;
+  font-family: Crimson;
+}
+/* MEDIA QUERIES STARTS */
+@media screen and (max-width: 480px){
+  h1{
+    font-size: 2em;
+  }
+  h2{
+    font-size: 1.93em;
+  }
+  h3{
+    font-size: 1.85em;
+  }
+  h4{
+    font-size: 1.65em;
+  }
+  h5{
+    font-size: 1.45em;
+  }
+  h6{
+    font-size: 1.1em;
+  }
+  .default-padding{
+    padding: 0 15px;
+  }
+  p{
+    line-height: 1.7em;
+    word-spacing: 1.2px;
+  }
+}
+/* MEDIA QUERIES ENDS */

@@ -1,0 +1,124 @@
+/* NAVBAR STYLES START */
+.navigation{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+}
+.navigation .logo{
+  flex-basis: 15%;
+}
+nav .menu-toggler{
+  width: 26px;
+  height: 26px;
+  position: relative;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+nav .menu-toggler span{
+  display: block;
+  width: 25px;
+  height: 3px;
+  background: #FFF;
+  margin-bottom: 3px;
+  transition: .1s ease-in;
+}
+.menu-toggler.active span{
+  margin-bottom: 0 !important;
+  background: #1649ff; 
+}
+.menu-toggler.active span:first-child{
+  transform: rotate(45deg);
+}
+.menu-toggler.active span:last-child{
+  margin-top: -3px;
+  transform: rotate(135deg);
+}
+.menu-toggler.active span:nth-child(2){
+  display: none;
+}
+.navigation .nav-items{
+    flex-basis: 65%;
+}
+.navigation .nav-items .nav-list{
+    display: flex;
+    list-style-type: none;
+    font-family: Crimson;
+}
+nav .nav-items.active{
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+} 
+  #navigation .nav-items .nav-list li{
+    margin: 0 15px;
+}
+  #navigation .nav-items .nav-list li:last-child{
+    margin-right: 0;
+}
+  #navigation .nav-items .nav-list li a{
+    text-decoration: none;
+    color: white;
+}
+  #navigation .nav-items .nav-list li a.active,
+  #navigation .nav-items .nav-list li a:hover{
+    color: #1649ff;
+}
+@media screen and (max-width: 480px){
+    /* NAVBAR STYLES START */
+  .navigation{
+    padding: 10px 20px;
+    z-index: 9;
+  }
+  nav .menu-toggler{
+    display: flex;
+  }
+  .navigation .nav-items{
+    position: absolute;
+    top: 75px;
+    right: 0;
+    width: 100%;
+    background: #141a2a;
+    flex-direction: column;
+    justify-content: start;
+    align-items: flex-start;
+    padding: 35px 15px;
+    box-shadow: 0px 5px 5px 0 rgba(20, 26, 42, .85);
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+    z-index: 9;
+  }
+  .navigation .nav-items .nav-list{
+    flex-direction: column;
+    margin: 0;
+  }
+    .navigation .nav-items .nav-list li{
+      margin-left: 0 !important;
+      margin-right: 0 !important;
+      line-height: 2em;
+  }
+    .navigation .nav-items .nav-list li:last-child{
+      margin-left: 0 !important;
+      margin-right: 0;
+  }
+    .navigation .nav-items .nav-list li a{
+     font-size: 1.4em;
+  }
+    .navigation .nav-items .nav-list li a.active,
+    .navigation .nav-items .nav-list li a:hover{
+      color: #1649ff;
+  }
+    .navigation .nav-items .nav-buttons{
+      margin-top: 30px;
+      width: 100%;
+  }
+    .navigation .nav-items .nav-buttons button{
+      width: 100%;
+  }
+}
+
+
+/* NAVBAR STYLES ENDS */

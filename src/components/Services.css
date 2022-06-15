@@ -1,0 +1,55 @@
+.services{
+    margin-bottom: 120px;
+}
+.services .services-header{
+    margin: 15px 0;
+}
+.services .services-header p{
+    width: 30%;
+}
+.services .services-inner{
+    flex-direction: column;
+    margin-top: 35px;
+}
+.services .services-inner .services-cards{
+    margin: 20px 0;
+}
+.services .services-button{
+    width: 100%;
+    /* margin: 25px auto; */
+}
+@media screen and (max-width: 480px){
+    .services{
+        margin-bottom: 120px;
+    }
+    .services .services-header{
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    .services .services-header p{
+        width: 100%;
+        margin-top: 15px;
+    }
+    .services .services-inner{
+        flex-direction: column;
+    }
+    .services .services-inner .services-cards{
+        margin-bottom: 0;
+        flex-direction: column;
+        gap: 15px;
+    }
+    .services .services-button{
+        width: 100%;
+        margin-top: 35px;
+        /*  */
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 15px;
+        margin-top: 45px;
+    }
+    .services .services-button a{
+        text-align: center;
+        width: 100%;
+    }
+}

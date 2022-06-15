@@ -1,0 +1,26 @@
+.news{
+    margin-bottom: 80px;
+}
+.news .news-header{
+    padding: 35px 0;
+}
+@media screen and (max-width: 480px){
+    .news{
+        margin-bottom: 80px;
+    }
+    .news .news-header{
+        padding: 35px 0;
+        flex-direction: column;
+        justify-content: start;
+        align-items: flex-start;
+    }
+    .news .news-header a{
+        width: 100%;
+        text-align: center;
+        margin-top: 35px;
+    }
+    .news .news-cards{
+        flex-direction: column;
+        gap: 15px;
+    }
+}
