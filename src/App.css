@@ -3,12 +3,23 @@
   src: url('./fonts/Crimson_Text/CrimsonText-Regular.ttf');
 }
 @font-face{
+  font-family: CrimsonBold;
+  src: url('./fonts/Crimson_Text/CrimsonText-Bold.ttf');
+}
+@font-face{
+  font-family: CrimsonSemiBold;
+  src: url('./fonts/Crimson_Text/CrimsonText-SemiBold.ttf');
+}
+@font-face{
   font-family: Zilla;
   src: url('./fonts/Zilla_Slab/ZillaSlab-Regular.ttf');
 }
 @font-face{
-  font-family: ZillaBold;
-  src: url('./fonts/Zilla_Slab/ZillaSlab-Bold.ttf');
+  font-family: ZillaSemiBold;
+  src: url('./fonts/Zilla_Slab/ZillaSlab-SemiBold.ttf');
+}
+:root{
+  --site-max-width: 1300px;
 }
 *{
   margin: 0;
@@ -23,6 +34,7 @@ body{
 p{
   line-height: 1.6em;
   word-spacing: 1.2px;
+  font-family: Zilla;
 }
 .bold{
   font-weight: 600;
@@ -30,21 +42,27 @@ p{
 }
 h1{
   font-size: 3em;
+  font-family: CrimsonBold;
 }
 h2{
   font-size: 2.65em;
+  font-family: CrimsonBold;
 }
 h3{
   font-size: 2.4em;
+  font-family: CrimsonSemiBold;
 }
 h4{
   font-size: 1.6em;
+  font-family: Crimson;
 }
 h5{
   font-size: 1.3em;
+  font-family: ZillaSemiBold;
 }
 h6{
   font-size: 1.1em;
+  font-family: ZillaSemiBold;
 }
 .d-flex{
   display: flex;
@@ -120,6 +138,7 @@ img{
   -moz-transition: .3s ease-in;
   -ms-transition: .3s ease-in;
   -o-transition: .3s ease-in;
+  font-family: Zilla;
 }
 .nav-btn{
   padding: 15px;
@@ -159,48 +178,9 @@ img{
   border: 1px solid #FFF;
   font-weight: normal; 
 }
-.logo{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: white;
-  text-decoration: none;
-}
-.logo:hover{
-  transform: translateY(-2px);
-  -webkit-transform: translateY(-2px);
-  -moz-transform: translateY(-2px);
-  -ms-transform: translateY(-2px);
-  -o-transform: translateY(-2px);
-  transition: transform .2s ease-in-out;
-  -webkit-transition: transform .2s ease-in-out;
-  -moz-transition: transform .2s ease-in-out;
-  -ms-transition: transform .2s ease-in-out;
-  -o-transition: transform .2s ease-in-out;
-}
-.logo div{
-  width: 30px;
-  height: 30px;
-  justify-content: space-around;
-  display: flex;
-  flex-wrap: wrap;
-  margin-right: 5px;
-}
-.logo div span{
-  width: 12px;
-  height: 12px;
-  display: block;
-  background: white;
-}
-.logo div span:nth-child(2),
-.logo div span:nth-child(3){
-  transform: rotate(45deg);
-  border-radius: 5px;
-  background: #1649ff;
-}
-.logo > span{
-  font-size: 35px;
-  font-family: Crimson;
+#main{
+  max-width: var(--site-max-width);
+  margin: 90px auto 0;
 }
 /* MEDIA QUERIES STARTS */
 @media screen and (max-width: 480px){

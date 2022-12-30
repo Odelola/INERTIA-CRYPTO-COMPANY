@@ -1,12 +1,17 @@
 /* NAVBAR STYLES START */
-.navigation{
+.navigation{  
+}
+.nav-inner{
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 20px 40px;
+  max-width: var(--site-max-width);
+  margin: 0 auto;
+  width: 100%;
 }
-.navigation .logo{
-  flex-basis: 15%;
+.navigation .logo img{
+  width: 50%;
 }
 nav .menu-toggler{
   width: 26px;
@@ -72,6 +77,12 @@ nav .nav-items.active{
     padding: 10px 20px;
     z-index: 9;
   }
+  .nav-inner{
+    padding: 0
+  }
+  .navigation .logo{
+    flex-basis: initial;
+  }
   nav .menu-toggler{
     display: flex;
   }
@@ -93,7 +104,9 @@ nav .nav-items.active{
   }
   .navigation .nav-items .nav-list{
     flex-direction: column;
-    margin: 0;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
   }
     .navigation .nav-items .nav-list li{
       margin-left: 0 !important;
@@ -112,8 +125,7 @@ nav .nav-items.active{
       color: #1649ff;
   }
     .navigation .nav-items .nav-buttons{
-      margin-top: 30px;
-      width: 100%;
+      margin: 30px auto 0;
   }
     .navigation .nav-items .nav-buttons button{
       width: 100%;

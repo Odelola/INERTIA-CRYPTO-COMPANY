@@ -3,8 +3,8 @@ import './NewsCard.css';
 
 function NewsCard(props) {
     return (
-        <div class="news-card column-45">
-            <div class="news-figure">
+        <div className="news-card column-45">
+            <div className="news-figure">
                 <img src={props.image} alt={props.title}  />               
             </div>
             <div className="news-info">

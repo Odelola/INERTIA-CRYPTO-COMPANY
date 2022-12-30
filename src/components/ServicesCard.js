@@ -3,8 +3,8 @@ import './ServicesCard.css';
 
 function ServicesCard(props) {
     return (
-        <div class="services-card text-center">
-            <div class="services-figure">
+        <div className="services-card text-center">
+            <div className="services-figure">
                 <img src={props.image} alt={props.title}  />               
             </div>
             <h4>{props.servicesCard_heading}</h4>

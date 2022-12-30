@@ -19,8 +19,8 @@ function Header() {
                     <h1 className="section-header">Earn up to 5.7% APY interest from your crypto assets</h1>
                     <p className="bold">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis minus autem sapiente reprehenderit, blanditiis voluptatibus!</p>
                     <div className="header-buttons d-flex">
-                        <a href="#0" className="btn btn-primary m-g-r-15">Get Started</a>
-                        <a href="#0" className="btn btn-secondary">Learn more</a>
+                        <a href="#services" className="btn btn-primary m-g-r-15">Get Started</a>
+                        <a href="#testimonials" className="btn btn-secondary">Learn more</a>
                     </div>
                 </div>
                 <div className="header-image column-45">

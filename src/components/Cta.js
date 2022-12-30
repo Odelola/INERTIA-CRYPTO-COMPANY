@@ -22,9 +22,9 @@ function Cta() {
             <div className="cta-text column-40">
                 <h3>Start investing today</h3>
                 <p className="bold">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas ducimus sit vitae distinctio incidunt ipsa?</p>
-                <div class="cta-buttons d-flex">
-                    <a href="#0" class="btn btn-primary-alt m-g-r-15">Get started</a>
-                    <a href="#0" class="btn btn-secondary-alt">Learn more</a>
+                <div className="cta-buttons d-flex">
+                    <a href="#0" className="btn btn-primary-alt m-g-r-15">Get started</a>
+                    <a href="#0" className="btn btn-secondary-alt">Learn more</a>
                 </div>
             </div>
         </div>

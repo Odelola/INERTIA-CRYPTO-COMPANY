@@ -13,15 +13,15 @@ function Testimonials() {
                 <p className="bold">Here are comments from clients that make us blush.</p>
             </div>
             <div className="testimonials-carousel d-flex">
-                <div class="testimonials-cards d-flex jcsb" data-aos="fade-up-right">
+                <div className="testimonials-cards d-flex jcsb" data-aos="fade-up-right">
                     <TestimonialsCard image={testimonialOne} title="Clara's Speech" name="Clara Rose" username="@clara_rose" />
                     <TestimonialsCard image={testimonialTwo} title="Mike's Speech" name="Mike Bill" username="@mike_bill1" />
                     <TestimonialsCard image={testimonialThree} title="Emma's Speech" name="Emma white" username="@emma_white_20" />
                 </div>
             </div>
-            <div class="testimonials-button d-flex x-center">
-                <a href="#0" class="btn btn-primary m-g-r-15">Get started</a>
-                <a href="#0" class="btn btn-secondary">How it works</a>
+            <div className="testimonials-button d-flex x-center">
+                <a href="#0" className="btn btn-primary m-g-r-15">Get started</a>
+                <a href="#0" className="btn btn-secondary">How it works</a>
             </div>
         </section>
     )
